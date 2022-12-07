@@ -11,7 +11,7 @@ fs.readFile("../data/6.txt", (err, data) => {
     string = letters.slice(i, i + 14);
     let unique = [...new Set(string)];
     if (unique.length == 14) {
-      console.log("First unique set of 4 is at index", i + 14, unique);
+      console.log("First unique set of 14 is at index", i + 14, unique);
       break;
     }
   }
